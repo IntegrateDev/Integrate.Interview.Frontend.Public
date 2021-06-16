@@ -31,3 +31,6 @@ You don't have to implement the following things during the exercise, but be rea
 * Error handling
 * Filtering/searching data
 * Paging large amounts of data
+
+## Here we go!
+Open the [README file](README.md) to get started!
