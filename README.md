@@ -27,6 +27,8 @@ Asking questions (for requirements clarity or help) is encouraged.
 ## Additional Topics for Discussion 
 You don't have to implement the following things during the exercise, but be ready to discuss them.
 * Automated testing
+* Hooks
+* Functional components vs. class-based components
 * Common design patterns
 * Error handling
 * Filtering/searching data
