@@ -1,0 +1,22 @@
+.marketing-leads {
+  color: white;
+}
+.marketing-leads > .view-leads-table {
+  width: 100vw;
+}
+.marketing-leads > .add-lead-form {
+  margin: 2vw;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.add-lead-form > div > label {
+  margin-right: 10px;
+}
+.leads-col-headers {
+  border-bottom: 1px solid gray;
+}
+.leads-cell {
+  padding: '10px';
+  border: 'solid 1px gray';
+}
