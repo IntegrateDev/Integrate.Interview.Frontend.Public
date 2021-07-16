@@ -4,35 +4,51 @@ The center of Integrate's product is the __Demand Acceleration Platform (DAP)__.
 
 We are striving to build a world-class UI using React. The UI interacts with microservices that expose their functionality through RESTful APIs. 
 
-## Exercise Definition
-It is important to us that your interview exercise is relevant to the kind of work you would be performing at Integrate. 
-
-For this exercise, you will be asked to create a simple app using React. This repo provides a working `create-react-app` project for you to use as a base.
+For this exercise, you will create a simple app using React. This repo provides a working `create-react-app` project for you to use as a base.
 
 The app should allow users to:
-* View marketing leads (i.e., people)
+* View all marketing leads (i.e., people)
 * Add a person to the list
 
 Backend API endpoints are provided in this repo, along with Swagger documentation describing them. The goal is working software that can be demonstrated in a browser.
 
-You can use any additional libraries you would like (e.g., React-Boostrap, Material-UI, etc.), but make sure to keep your design simple. We don't expect you to complete an enterprise-level app during a brief interview!
+You can use any additional libraries you would like (e.g., React-Bootstrap, Material-UI, etc.), but make sure to keep your design simple. We don't expect you to complete an enterprise-level app during a brief interview!
 
-## Collaboration
-This interview is about more than just code; we're also hoping to discover the following:
-* How comfortable are you with pair/group programming? Our culture is highly collaborative.
-* What things are you considering when you are coding? Being able to explain what you're doing and why you're doing it is critical to our continuous improvement as a team.
+## Prerequisites
+You must have the following dependencies installed:
+* [.NET Core](https://dotnet.microsoft.com/download)
+* [NodeJS](https://nodejs.org/en/)
 
-Asking questions (for requirements clarity or help) is encouraged.
+## Backend API
+### Running the API
+From the root directory of this repo, run the following in a console.
 
-## Additional Topics for Discussion 
-You don't have to implement the following things during the exercise, but be ready to discuss them.
-* Automated testing
-* Hooks
-* Functional components vs. class-based components
-* Common design patterns
-* Error handling
-* Filtering/searching data
-* Paging large amounts of data
+```
+cd ./Backend/Integrate.Interview.Frontend/Integrate.Interview.Frontend/
+dotnet run
+```
 
-## Here we go!
-Open the [Getting Started Guide](GETTINGSTARTED.md) to get started!
+_Note that if you're using Windows, some command line tools may require back slashes (`\`) in your directory paths._
+
+### Viewing the API Documentation
+The API includes Swagger documentation so you can easily call it from your UI. With the API running, navigate to `https://localhost:5001/swagger`.
+
+## React UI
+### Running the React App
+From the root directory of this repo, run the following in a console:
+
+```
+cd ./Frontend/integrate-interview-frontend
+npm install
+npm start
+```
+
+_Note that if you're using Windows, some command line tools may require back slashes (`\`) in your directory paths._
+
+The React app should launch in your browser at http://localhost:3000. When you save changes to a file in the front-end code, the React app will automatically display your changes.
+
+### Running the Automated Tests
+From the `integrate-interview-frontend` subdirectory, run the following in a console:
+```
+npm test
+```
