@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Integrate.Interview.Frontend.Models
+namespace Integrate.Interview.Api.Models
 {
     public class ApiPerson
     {

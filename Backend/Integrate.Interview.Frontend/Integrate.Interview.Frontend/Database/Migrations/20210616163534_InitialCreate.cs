@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Integrate.Interview.Frontend.Database.Migrations
+namespace Integrate.Interview.Api.Database.Migrations
 {
     public partial class InitialCreate : Migration
     {

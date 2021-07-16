@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Integrate.Interview.Frontend.Database;
-using Integrate.Interview.Frontend.Database.Models;
-using Integrate.Interview.Frontend.Mappers;
-using Integrate.Interview.Frontend.Models;
+using Integrate.Interview.Api.Database;
+using Integrate.Interview.Api.Database.Models;
+using Integrate.Interview.Api.Mappers;
+using Integrate.Interview.Api.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace Integrate.Interview.Frontend.Controllers
+namespace Integrate.Interview.Api.Controllers
 {
     [Produces("application/json")]
     [ApiController]

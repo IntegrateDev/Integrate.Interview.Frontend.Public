@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Integrate.Interview.Frontend
+namespace Integrate.Interview.Api
 {
     public class Program
     {

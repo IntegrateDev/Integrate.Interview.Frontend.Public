@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using Integrate.Interview.Frontend.Database.Models;
+using Integrate.Interview.Api.Database.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Integrate.Interview.Frontend.Database
+namespace Integrate.Interview.Api.Database
 {
     public class PersonContext : DbContext
     {
