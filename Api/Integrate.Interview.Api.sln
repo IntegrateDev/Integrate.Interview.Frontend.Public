@@ -1,6 +1,5 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrate.Interview.Frontend", "Integrate.Interview.Frontend\Integrate.Interview.Frontend.csproj", "{94CB0BA8-6F60-4F31-ADCE-24C01B13AB95}"
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrate.Interview.Api", "Integrate.Interview.Api\Integrate.Interview.Api.csproj", "{94CB0BA8-6F60-4F31-ADCE-24C01B13AB95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

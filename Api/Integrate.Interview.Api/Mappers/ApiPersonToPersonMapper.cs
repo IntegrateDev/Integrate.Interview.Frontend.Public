@@ -1,7 +1,7 @@
-using Integrate.Interview.Frontend.Database.Models;
-using Integrate.Interview.Frontend.Models;
+using Integrate.Interview.Api.Database.Models;
+using Integrate.Interview.Api.Models;
 
-namespace Integrate.Interview.Frontend.Mappers
+namespace Integrate.Interview.Api.Mappers
 {
     public class ApiPersonToPersonMapper : IToDbMapper<ApiPerson, Person>
     {

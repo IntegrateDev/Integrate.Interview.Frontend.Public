@@ -1,7 +1,7 @@
-using Integrate.Interview.Frontend.Database;
-using Integrate.Interview.Frontend.Database.Models;
-using Integrate.Interview.Frontend.Mappers;
-using Integrate.Interview.Frontend.Models;
+using Integrate.Interview.Api.Database;
+using Integrate.Interview.Api.Database.Models;
+using Integrate.Interview.Api.Mappers;
+using Integrate.Interview.Api.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
-namespace Integrate.Interview.Frontend
+namespace Integrate.Interview.Api
 {
     public class Startup
     {
@@ -27,7 +27,7 @@ namespace Integrate.Interview.Frontend
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo {Title = "Integrate.Interview.Frontend", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo {Title = "Integrate.Interview.Api", Version = "v1"});
                 c.EnableAnnotations();
             });
             services.AddDbContext<PersonContext>(o =>
@@ -56,7 +56,7 @@ namespace Integrate.Interview.Frontend
                 app.UseSwagger();
                 app.UseSwaggerUI(c =>
                 {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Integrate.Interview.Frontend v1");
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Integrate.Interview.Api v1");
                 });
             }
 
