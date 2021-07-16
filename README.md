@@ -24,7 +24,7 @@ You must have the following dependencies installed:
 From the root directory of this repo, run the following in a console.
 
 ```
-cd ./Backend/Integrate.Interview.Frontend/Integrate.Interview.Frontend/
+cd ./Api/Integrate.Interview.Api/
 dotnet run
 ```
 
@@ -38,7 +38,7 @@ The API includes Swagger documentation so you can easily call it from your UI. W
 From the root directory of this repo, run the following in a console:
 
 ```
-cd ./Frontend/integrate-interview-frontend
+cd ./Frontend/
 npm install
 npm start
 ```
