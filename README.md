@@ -16,7 +16,7 @@ You can use any additional libraries you would like (e.g., React-Bootstrap, Mate
 
 ## Prerequisites
 You must have the following dependencies installed:
-* [.NET 5](https://dotnet.microsoft.com/download)
+* [.NET 6](https://dotnet.microsoft.com/download)
 * [NodeJS](https://nodejs.org/en/)
 * [Git](https://git-scm.com/downloads)
 
