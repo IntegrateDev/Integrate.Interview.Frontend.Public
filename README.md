@@ -36,7 +36,7 @@ dotnet run
 _Note that if you're using Windows, some command line tools may require back slashes (`\`) in your directory paths._
 
 ### Viewing the API Documentation
-The API includes Swagger documentation so you can easily call it from your UI. With the API running, navigate to `https://localhost:5001/swagger`.
+The API includes Swagger documentation so you can easily call it from your UI. With the API running, navigate to `http://localhost:5000/swagger`.
 
 ## React UI
 ### Running the React App
